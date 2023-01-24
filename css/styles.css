@@ -1,0 +1,149 @@
+/* COLOUR PALETTE
+https://coolors.co/dcedff-94b0da-8f91a2-505a5b-343f3e
+#F1F5F9 - Almost White
+#DCEDFF - Alice Blue
+#94B0DA - Wild Blue Yonder
+#8F91A2 - Manatee Grey
+#505A5B - Darker Grey
+#343F3E - Outer Space Crayola
+*/
+
+
+/* Global Styles
+------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    color: #343F3E;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #FFEE70;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 90px;
+}
+h2 {
+    font-size: 35px;
+    line-height: 1;
+}
+h1, h2 {
+     font-family: 'Ubuntu', sans-serif;
+     margin: 0;
+}
+.content-wrap {
+   max-width: 800px;
+   width: 85%;
+   margin: 0 auto;
+   padding: 60px 0;
+}
+h3 {
+    margin-bottom: 0;
+}
+.item-details h3 + p {
+    font-style: italic;
+}
+.item-details h3 ~ p {
+    margin: 0;
+}
+.divider > section {
+    border-bottom: 1px solid #343F3E;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+
+/* Profile
+------------------------------------------------------------*/
+header {
+    background: #505A5B;
+    color: #F1F5F9;
+    text-align: center;
+}
+/* Projects
+------------------------------------------------------------*/
+.projects {
+    background: #DCEDFF;
+}
+
+projects a{
+    color: #94B0DA;
+}
+
+.projects .button {
+    color: #F1F5F9;
+    background: #505A5B;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects .button:hover {
+    background: rgba(80, 90, 91, 80%);
+}
+
+.project-item {
+    overflow: hidden;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.image-padding {
+    padding: 5px;
+}
+
+/* Work Experience
+------------------------------------------------------------*/
+.work-experience {
+    background: #94B0DA;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+/* Education
+------------------------------------------------------------*/
+
+/* Contact Info
+------------------------------------------------------------*/
+footer {
+    background: #505A5B;
+    color: #F1F5F9;
+    text-align: center;
+}
+.contact-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
